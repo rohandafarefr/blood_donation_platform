@@ -24,7 +24,7 @@ The Blood Donation Platform is a dedicated space where compassion meets communit
 
 2. **Set up the database**
     - Configure your database settings in `database/config.php`.
-    - Import the database schema from `database/schema.sql`.
+    - Import the database schema from `database/blood_donation_platform.sql`.
 
 3. **Explore and Contribute**
     - Explore the codebase and documentation.
