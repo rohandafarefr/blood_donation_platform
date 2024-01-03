@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b9b9b9; 
+    color: #2c3e50; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background-color: #334653; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: #00000021;
+    padding: 10px;
+    border-radius: 7px;
+    color: #ffffff; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background: #ffffff21;
+}
+
+.content {
+    background-color: #fff;
+    color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+label {
+    margin-top: 10px;
+    color: #555; 
+}
+
+input,
+select,
+button {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    color: #000; 
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.index-content {
+    background-color: #fff;
+    color: #2c3e50; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+.index-content h1 {
+    color: #e74c3c; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.index-content h2 {
+    color: #3498db; 
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.index-content p {
+    color: #333; 
+    line-height: 1.6;
+}
+
+.index-content img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0;
+}
+
+.admin-dashboard {
+    text-align: center;
+    margin: 20px;
+}
+
+.donor-management {
+    margin-top: 20px;
+}
+
+.donor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.donor-table th,
+.donor-table td {
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    text-align: left;
+}
+
+.donor-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.donor-table td a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.donor-table td a.edit {
+    background-color: #3498db;
+}
+
+.donor-table td a.delete {
+    background-color: #e74c3c;
+}
+
+.donor-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.donor-table table,
+.donor-table th,
+.donor-table td {
+    border: 1px solid #ddd;
+}
+
+.donor-table th,
+.donor-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.donor-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.donor-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-dashboard a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.admin-dashboard a:hover {
+    background-color: #218c53;
+}
