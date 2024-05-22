@@ -89,10 +89,6 @@ CREATE TABLE `donors` (
 -- Dumping data for table `donors`
 --
 
-INSERT INTO `donors` (`donor_id`, `first_name`, `last_name`, `email`, `phone_number`, `date_of_birth`, `blood_type`, `registration_date`, `eligibility_status`, `address`, `city`, `pin_code`, `body_weight`, `height_cm`) VALUES
-(2, 'Sakshi', 'Suryawanshi', 'sakshi.12work@gmail.com', '8874983484', '2003-07-16', 'O+', '2023-12-21 11:43:11', 1, 'Wardha Road', 'Nagpur', '440015', '50.00', 160),
-(3, 'Pooja', 'Datta', 'pooja@blood.com', '7872827287', '2003-06-04', 'AB+', '2024-01-03 19:53:20', 1, 'Near city center', 'Mumbai', '400002', '50.00', 140),
-(4, 'Sujal', 'Shirke', 'sujal@blood.com', '7373737373', '2003-10-10', 'B+', '2024-01-03 20:13:50', 1, 'Manewada Sq', 'Nagpur', '440015', '60.00', 150);
 
 -- --------------------------------------------------------
 
